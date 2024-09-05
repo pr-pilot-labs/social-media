@@ -10,4 +10,8 @@
     1. Write the post into `posts/<post-slug>/<platform>/post.md`
     2. Write metadata for the post in `posts/<post-slug>/<platform>/meta.md`
     3. Add a link to the post in the `posts/README.md` file
-  result: File path to the new post
+  result: |
+    Briefly confirm that
+    - all content has been created successfully
+    - paths of the files created
+    - Emphasize that no further action is needed.
