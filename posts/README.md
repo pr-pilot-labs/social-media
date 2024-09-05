@@ -1,4 +1,8 @@
-# Posts
+# Social Media Posts
 
-- [The Story Behind PR Pilot](posts/1-story-behind-pr-pilot/devto/post.md)
-- [The Story Behind PR Pilot on X](posts/1-story-behind-pr-pilot/x/post.md)
+This is the table of contents for all social media posts.
+
+
+| Number | Date       | Slug                                               | Title |
+|---------|------------|----------------------------------------------------| ----- |
+| 1       | 2024-09-05 | [story-behind-pr-pilot](./1-story-behind-pr-pilot) | The Story Behind PR Pilot                          |
