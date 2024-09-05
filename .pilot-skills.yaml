@@ -1,0 +1,11 @@
+- title: Write a social media post
+  args:
+    platform: The social media platform
+    source_content: User-provided content for the post
+    post_slug: Slug of the post
+    target_audience: The target audience for the post
+    style: The style of the post
+  instructions: |
+    Write a social media post in the given style for the given platform and target audience using the provided content.
+    1. Write the post into `posts/<post-slug>/<platform>/post.md`
+    2. Add a link to the post in the `posts/README.md` file
