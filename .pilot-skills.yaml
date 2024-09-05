@@ -8,4 +8,6 @@
   instructions: |
     Write a social media post in the given style for the given platform and target audience using the provided content.
     1. Write the post into `posts/<post-slug>/<platform>/post.md`
-    2. Add a link to the post in the `posts/README.md` file
+    2. Write metadata for the post in `posts/<post-slug>/<platform>/meta.md`
+    3. Add a link to the post in the `posts/README.md` file
+  result: File path to the new post
