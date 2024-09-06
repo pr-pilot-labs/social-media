@@ -1,5 +1,7 @@
 # Social Media Content Pipeline
 
+This project uses [PR Pilot](https://www.pr-pilot.ai) to implement a social media content pipeline. From an initial draft, a DEV.to article is generated, which contains the main post. Secondary posts are generated for other platforms and linked back to the original post.
+
 ```mermaid
 graph TD;
     A[Draft] -->|Generate| B[DEV.to Blog Post];
@@ -9,8 +11,6 @@ graph TD;
     E -->|Link Back| B;
 ```
 
-## Project Description
-This project uses PR Pilot to implement a social media content pipeline. From an initial draft, a DEV.to article is generated, which contains the main post. Secondary posts are generated for other platforms and linked back to the original post.
 
 ## Pipeline Stages
 
