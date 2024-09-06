@@ -20,7 +20,7 @@ commands:
     code: false
     debug: false
     direct: false
-    file: prompts/draft-story-of-pr-pilot.md.jinja2
+    file: prompts/draft-post.md.jinja2
     model: gpt-4o
     snap: false
     spinner: true
