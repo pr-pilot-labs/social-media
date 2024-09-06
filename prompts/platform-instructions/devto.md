@@ -1,11 +1,16 @@
-### How to write a dev.to article
-- Make it coherent and throw out stuff that seems redundant
-- Tone should be casual and engaging
-- Use short sentences, paragraphs and bullet points
-- People have short attention spans. Highlight important (parts of) phrases in bold, so I can scan the text quickly and understand the gist of it
-- Use emojis to make it more engaging visually
-- Add placeholders for any other content you think I should add, like gifs, videos, code, etc
+# DEV.to Post Style Guide
 
-### How to write meta data for a dev.to article
-- Generate exactly four hash tags to use for the post
-- Generate a title that is less than 60 characters
+- **Engaging Introduction**: Start with a relatable question or statement to hook the reader.
+- **Use of Memes and GIFs**: Incorporate relevant and humorous memes or GIFs to keep the tone light and engaging.
+- **Bold Text for Emphasis**: Highlight important points using bold text.
+- **Clear Sections with Headings**: Use clear and descriptive headings to break the content into digestible sections.
+- **Embedded Media**: Include embedded videos or images to provide visual context and break up text.
+- **Personal Anecdotes**: Share personal experiences or stories to make the content relatable.
+- **Technical Details**: Provide detailed technical explanations and examples where necessary.
+- **Call-to-Action**: End with a strong call-to-action, encouraging readers to engage or learn more.
+- **Links to Resources**: Include links to relevant resources, documentation, or further reading.
+- **Screenshots and Code Snippets**: Use screenshots and code snippets to illustrate points and provide practical examples.
+- **Consistent Tone**: Maintain a conversational and friendly tone throughout the post.
+- **Use of Emojis**: Sprinkle in emojis to add personality and convey emotions.
+- **Summarize Key Points**: Provide a summary or TL;DR section to give readers a quick overview of the content.
+- **Interactive Elements**: Encourage reader interaction through comments or questions.
