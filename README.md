@@ -66,7 +66,11 @@ Run: `pilot run generate-post`
 
 ### 3️⃣ Review
 
-Review the generated post in the [posts/](./posts) directory. Make any necessary edits before publishing.
+Review the generated post in the [posts/](./posts) directory. You can ask PR Pilot to make the changes for you:
+
+```shell
+pilot run edit-post  
+```
 
 ### 4️⃣ Publish
 You can publish your post using the [upload_devto_article.py](./upload_devto_article.py) script. It will automatically

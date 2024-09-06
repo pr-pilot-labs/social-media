@@ -41,3 +41,17 @@ commands:
     sync: false
     verbose: false
     wait: true
+- description: Make changes to a post
+  name: edit-post
+  params:
+    cheap: false
+    code: false
+    debug: false
+    direct: false
+    file: prompts/edit-post.md.jinja2
+    model: gpt-4o
+    snap: false
+    spinner: true
+    sync: true
+    verbose: true
+    wait: true

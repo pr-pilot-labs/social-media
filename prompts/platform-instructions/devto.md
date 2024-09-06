@@ -22,3 +22,10 @@ We use asciinema for terminal recordings. You can embed them using the following
 {% embed https://asciinema.org/a/webTQtjJbcLkzyTqrTpqRxF6w %}
 ```
 
+## Details
+You can embed a "details" HTML element by using details, spoiler, or collapsible. The summary will be what the dropdown title displays. The content will be the text hidden behind the dropdown. This is great for when you want to hide text (i.e. answers to questions) behind a user action/intent (i.e. a click).
+```
+{% details summary %} content {% enddetails %}
+{% spoiler summary %} content {% endspoiler %}
+{% collapsible summary %} content {% endcollapsible %}
+```

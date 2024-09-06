@@ -1,11 +1,11 @@
 # Mastering PR Descriptions: Make Your PRs Stand Out
 
 ## TL;DR
-Learn how to create beautiful and effective PR descriptions effortlessly with PR Pilot in minutes.
+Learn how to generate beautiful and comprehensive PR descriptions effortlessly with PR Pilot in minutes.
 
 ## Introduction
 
-Are you too lazy to write comprehensive and beautiful PR descriptions? 😅 You're not alone! Good PR descriptions are crucial for effective collaboration and project management. But they can be time-consuming and tedious to write. Enter **[PR Pilot](https://www.pr-pilot.ai)** – your new best friend for creating consistent, clear, and beautiful PR descriptions effortlessly.
+Are you too lazy to write **comprehensive and beautiful PR descriptions**? 😅 You're not alone! Good PR descriptions are crucial for effective collaboration and project management. But they can be time-consuming and tedious to write. Enter **[PR Pilot](https://www.pr-pilot.ai)** – your new best friend for creating consistent, clear, and beautiful PR descriptions effortlessly.
 
 ## Benefits of Using PR Pilot for PR Descriptions
 
@@ -37,11 +37,6 @@ brew install pr-pilot-cli
 3. **Customize the template**: Adjust the downloaded prompt template to suit your project's needs.
 4. **Run the prompt**: Generate a PR description with a single command: `pilot run pr-description`.
    {% embed https://asciinema.org/a/675043 %}
-
-## Advanced Tips
-
-- **Customizing Templates**: Dive deeper into customization to make the templates work exactly how you want.
-- **Automating Repetitive Tasks**: Use PR Pilot to automate other repetitive tasks in your workflow.
 
 ## Links / Resources
 

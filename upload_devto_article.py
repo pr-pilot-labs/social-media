@@ -21,24 +21,26 @@ def get_markdown_content(markdown_path):
     with open(markdown_path, 'r') as file:
         return file.read()
 
-
-def get_title_from_markdown(markdown_content):
-    """Extract the title from the Markdown content"""
+def separate_title_and_content(markdown_content):
+    """Separate the title and the content from the Markdown content"""
     title = None
+    content = None
     for line in markdown_content.split('\n'):
         if line.startswith('# '):
             title = line[2:]
+            content = markdown_content.replace(line, '', 1)
             break
-    return title
+    return title, content
 
 
 # Function to publish an article to DEV
 def publish_article_dev(markdown_content):
     # Set up the payload with article data
+    title, content = separate_title_and_content(markdown_content)
     article_payload = {
         "article": {
-            "title": get_title_from_markdown(markdown_content),
-            "body_markdown": markdown_content,
+            "title": title,
+            "body_markdown": content,
             "published": False,
         }
     }
@@ -64,10 +66,11 @@ def publish_article_dev(markdown_content):
 
 def update_existing_article(article_id, markdown_content):
     # Set up the payload with updated article data
+    title, content = separate_title_and_content(markdown_content)
     article_payload = {
         "article": {
-            "title": get_title_from_markdown(markdown_content),
-            "body_markdown": markdown_content,
+            "title": title,
+            "body_markdown": content,
             "published": False,
         }
     }
