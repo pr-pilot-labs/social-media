@@ -7,7 +7,7 @@ Learn how to generate beautiful and comprehensive PR descriptions effortlessly w
 
 Are you too lazy to write **comprehensive and beautiful PR descriptions**? 😅 You're not alone! Good PR descriptions are crucial for effective collaboration and project management. But they can be time-consuming and tedious to write. Enter **[PR Pilot](https://www.pr-pilot.ai)** – your new best friend for creating consistent, clear, and beautiful PR descriptions effortlessly.
 
-## Benefits of Using PR Pilot for PR Descriptions
+## Benefits of Using Generative AI for PR Descriptions
 
 **Consistency**: Ensures that all your PR descriptions follow a consistent format by storing the instructions as part of your code.
 
@@ -20,6 +20,12 @@ Are you too lazy to write **comprehensive and beautiful PR descriptions**? 😅 
 Here is a [real-life example](https://github.com/PR-Pilot-AI/pr-pilot/pull/210):
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tvdwrdj98u0q8avofwdq.png)
+
+## How it Works
+It's dead simple. All you do is run `pilot run pr-description` and:
+1. The agent asks you for the PR number
+2. It will read the PR description, comments, commits and code changes
+3. It will generate a new PR description based on your preferences
 
 ## How to Get Started
 
