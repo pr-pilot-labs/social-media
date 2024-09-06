@@ -31,7 +31,7 @@ Create a new draft in seconds, by answering a few questions:
 > What is the call to action: Use the template to build, ship and evaluate your own prototype
 > Any additional notes: Template link: https://github.com/PR-Pilot-AI/rapid-prototyper
 ▸ List directory posts                                                                                                                                                                                                             
-✎ Write content to posts/2-ai-assisted-github-template/draft.md                                                                                                                                                                    
+✎ Write content to posts/2-ai-assisted-github-template/ai-assisted-github-template.md                                                                                                                                                                    
 ✔ Draft initial outline for AI-assisted Github template post                                                                                                                                                                       
 ● Push branch create-a-social-media-2                                                                                                                                                                                              
 ✔ Create PR #6 for branch create-a-social-media-2                                                                                                                                                                                  
@@ -85,19 +85,19 @@ Run `pilot run generate-post` and select the post and platform you want to gener
 
 ✔ Running shell command: cat prompts/platform-instructions/x.md
 ○ Check out PR branch create-social-media                                                                                                                                                                                          
-≡ Read files: posts/1-story-behind-pr-pilot/draft.md                                                                                                                                                                              
+≡ Read files: posts/1-story-behind-pr-pilot/ai-assisted-github-template.md                                                                                                                                                                              
 └─┐ Invoking skill: Write a social media post                                                                                                                                                                                      
-  ✎ Write content to posts/1-story-behind-pr-pilot/x/post.md                                                                                                                                                                       
+  ✎ Write content to posts/1-story-behind-pr-pilot/x/story-of-pr-pilot.md                                                                                                                                                                       
   ✔ Add X platform post for 'The Story Behind PR Pilot'                                                                                                                                                                            
   ✎ Write content to posts/1-story-behind-pr-pilot/x/meta.md                                                                                                                                                                       
   ! Connection was interrupted, reconnecting...                                                                                                                                                                                    
   ≡ Read files: posts/README.md                                                                                                                                                                                                    
 ┌─┘ Skill finished                                                                                                                                                                                                                 
-✎ Write content to posts/1-story-behind-pr-pilot/x/post.md                                                                                                                                                                         
-✔ Created post for X platform in posts/1-story-behind-pr-pilot/x/post.md                                                                                                                                                           
+✎ Write content to posts/1-story-behind-pr-pilot/x/story-of-pr-pilot.md                                                                                                                                                                         
+✔ Created post for X platform in posts/1-story-behind-pr-pilot/x/story-of-pr-pilot.md                                                                                                                                                           
 ● Push branch create-social-media                                                                                                                                                                                                  
                                                                       
-  Created post in posts/1-story-behind-pr-pilot/x/post.md for x.      
+  Created post in posts/1-story-behind-pr-pilot/x/story-of-pr-pilot.md for x.      
                                                                       
 ↻ Pull latest changes from create-social-media           
 ```
