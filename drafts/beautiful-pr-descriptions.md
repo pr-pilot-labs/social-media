@@ -8,13 +8,17 @@ Learn how to create beautiful and effective PR descriptions effortlessly with PR
 - Importance of good PR descriptions
 - Brief overview of PR Pilot
 
-### Benefits of Using PR Pilot
+### Benefits of Using PR Pilot for PR Descriptions
 - Consistency in PR descriptions
 - Time-saving
 - Customizable prompt template (https://github.com/PR-Pilot-AI/core/blob/main/prompts/generate-pr-description.md.jinja2)
 
 ### How to Get Started
-(Scrape from https://docs.pr-pilot.ai/#quick-start)
+(Scrape setup instructions from https://docs.pr-pilot.ai/#quick-start)
+
+1. Grab prompt from our core repo (embed  https://asciinema.org/a/VVqj2RCS9IH4PsEgxONFnFxQq)
+2. Customize the downloaded prompt template to suit your project
+3. Run the prompt to generate a PR description with `pilot run pr-description`
 
 ### Advanced Tips
 - Customizing templates
