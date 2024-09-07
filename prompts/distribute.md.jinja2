@@ -16,12 +16,13 @@ information should be contained in a single "distribution file" from which I can
 The file should have the following format:
 
 ```markdown
+# Cover Image Prompt
+<prompt that can be used to generate a cover image for the post>
+
 # X
 
 ## X Post Variation <1-4>
-Tags: <tag1>, <tag2>, <tag3>
-
-<distinct post for X>
+<distinct post for X with in-line tags>
 
 # Reddit
 
@@ -29,12 +30,14 @@ Tags: <tag1>, <tag2>, <tag3>
 <post for subreddit>
 
 # LinkedIn
-Tags: <tag1>, <tag2>, <tag3>
-
 <post for LinkedIn>
 ```
 
 ## Instructions for writing the social media posts
+
+In general, it is important to me that the posts do not sound like ads or spam or written by a bot.
+The original blog article contains all the relevant information about the product, so make sure the
+secondary posts focus more on the benefit/technique/impact provided.
 
 {{ sh('cat prompts/platform-instructions/linkedin.md') }}
 {{ sh('cat prompts/platform-instructions/reddit.md') }}
