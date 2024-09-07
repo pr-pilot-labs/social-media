@@ -34,7 +34,7 @@ All content is organized in the following structure:
 Use the pilot commands in this directory to run the pipeline stages.
 
 ```shell
-➜  social-media git:(create-a-draft-for-a) ✗ pilot run
+(social-media) ➜  social-media git:(main) ✗ pilot run
 Usage: pilot run [OPTIONS] COMMAND [ARGS]...
 
   🚀 Run a saved command.
@@ -45,8 +45,11 @@ Options:
   --help  Show this message and exit.
 
 Commands:
-  draft          Answer a few questions and create a new draft
-  generate-post  Generate a post for a specific platform
+  distribute      Write content for distributing a post on social media
+  draft           Answer a few questions and create a new draft
+  edit-post       Make changes to a post
+  generate-post   Generate a post for a specific platform
+  pr-description  Generate PR Title & Description
 ```
 
 ### 1️⃣ Draft

@@ -55,3 +55,17 @@ commands:
     sync: true
     verbose: true
     wait: true
+- description: Write content for distributing a post on social media
+  name: distribute
+  params:
+    cheap: false
+    code: false
+    debug: false
+    direct: false
+    file: prompts/distribute.md.jinja2
+    model: gpt-4o
+    snap: false
+    spinner: true
+    sync: true
+    verbose: true
+    wait: true

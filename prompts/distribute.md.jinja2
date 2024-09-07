@@ -1,0 +1,43 @@
+I wrote a DEV.to article and want to share it on X, LinkedIn and Reddit.
+
+Here is the full article and the URL:
+
+---
+{{ sh('python load_devto_article.py') }}
+---
+
+Help me write the social media posts for each platform that will link back to the article. All
+information should be contained in a single "distribution file" from which I can easily copy the content.
+
+## How to write the distribution file
+
+The file should have the following format:
+
+```markdown
+# X
+
+## X Post Variation <1-4>
+Tags: <tag1>, <tag2>, <tag3>
+
+<distinct post for X>
+
+# Reddit
+
+## Subreddit: <subreddit name>
+<post for subreddit>
+
+# LinkedIn
+Tags: <tag1>, <tag2>, <tag3>
+
+<post for LinkedIn>
+```
+
+## Instructions for writing the social media posts
+
+{{ sh('cat prompts/platform-instructions/linkedin.md') }}
+{{ sh('cat prompts/platform-instructions/reddit.md') }}
+{{ sh('cat prompts/platform-instructions/x.md') }}
+
+---
+
+Your task: Write the distribution file into `dist/<post-slug>.md` (matching the post file) and respond with a link to the file.
