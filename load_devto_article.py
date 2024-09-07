@@ -35,11 +35,15 @@ def read_article(article_id):
         print("Response:", response.json())
 
 
-for i, post_file in enumerate(distribution_map.keys()):
-    print(f"{i + 1}. {post_file}")
+if len(os.sys.argv) == 1:
+    print("Please provide a post file as an argument")
+    exit()
 
-post_number = int(input("Select a post to publish: ")) - 1
-selected_post = list(distribution_map.keys())[post_number]
-print(f"Selected post: {selected_post}")
-article_id = distribution_map[selected_post]
-read_article(article_id)
+post_file = os.sys.argv[1]
+if post_file not in distribution_map:
+    print("Invalid post file", post_file)
+    exit()
+
+selected_post_id = distribution_map[post_file]
+print(f"Selected post: {post_file}")
+read_article(selected_post_id)

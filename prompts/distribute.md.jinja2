@@ -1,9 +1,11 @@
+{% set post_file = select(prompt='Select post to distribute', choices=sh('ls posts').split()) %}
+
 I wrote a DEV.to article and want to share it on X, LinkedIn and Reddit.
 
 Here is the full article and the URL:
 
 ---
-{{ sh('python load_devto_article.py') }}
+{{ sh(['python', 'load_devto_article.py', post_file]) }}
 ---
 
 Help me write the social media posts for each platform that will link back to the article. All
